@@ -14,3 +14,11 @@ Describe react-accessible-select here.
 
 [coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
 [coveralls]: https://coveralls.io/github/user/repo
+
+# Installation and usage
+
+The easiest way to use react-accessible-select is to install it from npm and build it into your app with Webpack.
+
+```
+yarn add react-accessible-select
+```
