@@ -4,6 +4,8 @@
 [![npm package][npm-badge]][npm]
 [![Coveralls][coveralls-badge]][coveralls]
 
+See [react-accessible-select](https://chandawarlokesh.github.io/react-accessible-select/) for live demo
+
 Describe react-accessible-select here.
 
 [build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
