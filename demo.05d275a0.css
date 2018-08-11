@@ -1,0 +1,104 @@
+.listbox-area {
+    padding: 20px;
+    background: #eee;
+    border: 1px solid #aaa;
+    font-size: 0px;
+}
+
+.left-area,
+.right-area {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    display: inline-block;
+    font-size: 14px;
+    vertical-align: top;
+    width: 50%;
+}
+
+.left-area {
+    padding-right: 10px;
+}
+
+.right-area {
+    padding-left: 10px;
+}
+
+[role="listbox"] {
+    padding: 0px;
+    background: white;
+    border: 1px solid #aaa;
+    z-index: 999;
+}
+
+[role="option"] {
+    display: block;
+    padding: 0 1em;
+    position: relative;
+    line-height: 1.8em;
+}
+
+[role="option"].focused {
+    background: #bde4ff;
+}
+
+[role="option"][aria-selected] {
+    padding-left: 1.5em;
+}
+
+button {
+    font-size: 16px;
+}
+
+button[aria-disabled="true"] {
+    opacity: 0.5;
+}
+
+#exp_button {
+    border-radius: 0;
+    font-size: 16px;
+    text-align: left;
+    padding: 5px 10px;
+    width: 150px;
+    position: relative;
+}
+
+#exp_button::after {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #aaa;
+    content: " ";
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#exp_button[aria-expanded="true"]::after {
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 0;
+    border-bottom: 8px solid #aaa;
+    content: " ";
+    position: absolute;
+    right: 5px;
+    top: 10px;
+}
+
+#exp_elem_list {
+    border-top: 0;
+    max-height: 8em;
+    overflow-y: auto;
+    position: absolute;
+    margin: 0;
+    width: 148px;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+/*# sourceMappingURL=demo.05d275a0.css.map*/
